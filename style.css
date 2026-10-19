@@ -14,6 +14,9 @@ p {
     font-family: "DM Sans", sans-serif ;
 }
 
+img {
+    height: auto;
+}
 
 h1 h2 h3 {
     font-family: "Cormorant Garamond", serif;
@@ -49,8 +52,7 @@ nav {
 }
 
 .right-section {
-    display: flex;
-    gap: 1rem;
+    gap: 2rem;
 
 }
 
@@ -60,15 +62,48 @@ nav {
 }
 
 .main-container {
+    background-color: #d9d4cc;
     height: auto;
     display: flex;
     justify-content: center;
     
 }
 
-.mainbox {
+.left-mainbox {
     justify-self: center;
     height: auto;
     width: 25%;
     padding: 1rem;
+}
+
+.right-mainbox {
+    justify-self: center;
+    height: auto;
+    width: 25%;
+    padding: 1rem;
+}
+
+.carousel-container {
+    width: 100%;
+    background-color: #d9d4cc;
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-carousel {
+    display: flex;
+    width: 900px;
+    max-width: 90%;
+    height: 400px;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    scrollbar-width: none;
+    margin: 2rem;
+}
+
+.image-carousel::-webkit-scrollbar {
+    display: none;
 }
