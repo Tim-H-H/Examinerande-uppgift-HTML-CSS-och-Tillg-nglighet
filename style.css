@@ -1,0 +1,30 @@
+body {
+background-color: #FFFFFF;
+padding: 0;
+}
+
+p {
+    font-family: "DM Sans", sans-serif ;
+}
+
+
+h1 h2 h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+}
+
+p h1 h2 h3 {
+    color: #111111;
+}
+
+nav {
+background-color: red;
+width: 100%;
+height: auto;
+margin: 0 auto;
+padding: 0 auto;
+}
+
+.mainbox {
+
+}
