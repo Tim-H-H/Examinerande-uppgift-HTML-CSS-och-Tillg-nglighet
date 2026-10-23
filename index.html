@@ -10,52 +10,101 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav>
-        <div class="left-section">
-            <a href="index.html">Linnea EK fotografi</a>
-        </div>
-        <div class="right-section">
-            <a href="/pages/AboutMe.html">Om mig</a>
-            <a href="/pages/Contact.html">Kontakt</a>
-            <a href="/pages/Services-Prices.html">Pris och Tjänster</a>
-            <a href="/pages/Portfolio.html">Portfölj</a>
-        </div>
-
-    </nav>
-
-    <div class="intro">
-
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h1>Linnea Ek Fotografi Portfolio</h1></a>
-
-    </div>
-
-    <div class="main-container">
-        <div class="left-mainbox">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias expedita quos ullam maxime labore necessitatibus fugit hic voluptates. Exercitationem quis, tenetur excepturi molestias voluptas deleniti veniam saepe nisi cupiditate?</p>
-        </div>
-
-        <div class="right-mainbox">
-            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias expedita quos ullam maxime labore necessitatibus fugit hic voluptates. Exercitationem quis, tenetur excepturi molestias voluptas deleniti veniam saepe nisi cupiditate?</a>
-        </div>
-    </div>
-
-
-    <div class="carousel-container">
-        <div class="image-carousel">
-            <img src="/Images/benjamin-chambon-Yq7T3B0a-jg-unsplash.webp" alt="">
-            <img src="/Images/bobby-thapa-JShkFkjlMes-unsplash.webp" alt="">
-            <img src="/Images/bruno-bd-mXwoxVfGvq0-unsplash.webp" alt="">
-            <img src="/Images/kevin-flores-lcFpv3o_nQw-unsplash.webp" alt="">
-            <img src="/Images/kevin-flores-VzNcpNyZD6Q-unsplash.webp" alt="">
-            <img src="/Images/luise-and-nic-h0bcX0zlXxA-unsplash.webp" alt="">
-            <img src="/Images/piergiovanni-di-blasi-h4K9VDbSGIs-unsplash.webp" alt="">
-            <img src="/Images/teodor-kuduschiev-XhOw2uPRxTk-unsplash.webp" alt="">
-            <img src="/Images/tim-mossholder-XAM4RYLA48k-unsplash.webp" alt="">
-            <img src="/Images/usman-umar-n_BWwpfo-ms-unsplash.webp" alt="">
-        </div>
-    </div>
-
+<body>    
+        <header>
+            <h1>Linnea Ek</h1>
+            <p>Fotograf från Sverige</p>
+    
+            <nav>
+                <a href="index.html">Hem</a>
+                <a href="/pages/AboutMe.html">Om mig</a>
+                <a href="/pages/Services-Prices.html">Tjänster & Priser</a>
+                <a href="/pages/Contact.html">Kontakt</a>
+                <a href="/pages/Portfolio.html">Portfolio</a>
+            </nav>
+        </header>
+    
+        <main>
+    
+            <section class="intro">
+                <p>Fotografi · Sverige</p>
+                <h2>Ögonblick att minnas.</h2>
+                <p>
+                    Naturligt ljus, äkta känslor och berättelser
+                    genom min kamera.
+                </p>
+                <a class="knapp" href="index.html#galleri">Se mina bilder</a>
+            </section>
+    
+            <section id="galleri">
+                <h2>Utvalda fotografier</h2>
+                <p>En samling av ögonblick, människor och platser.</p>
+    
+                <div class="galleri">
+                    <img src="bild1.jpg" alt="Fotografi av natur">
+                    <img src="bild2.jpg" alt="Porträttfotografi">
+                    <img src="bild3.jpg" alt="Fotografi av landskap">
+                </div>
+    
+                <p>
+                    <a class="textlank" href="/pages/AboutMe.html">Lär känna mig →</a>
+                </p>
+            </section>
+    
+            <section class="min-stil">
+                <h2>En enkel och tidlös stil.</h2>
+                <p>
+                    Jag inspireras av den skandinaviska naturen,
+                    mjukt ljus och de små detaljerna i vardagen.
+                    Mitt mål är att skapa bilder som känns äkta
+                    och som håller över tid.
+                </p>
+            </section>
+    
+            <section class="tjanster">
+                <h2>Mina tjänster</h2>
+    
+                <div class="prislista">
+    
+                    <div class="pris-kort">
+                        <h3>Porträtt</h3>
+                        <p>Personliga bilder med naturligt ljus.</p>
+                    </div>
+    
+                    <div class="pris-kort">
+                        <h3>Par & Familj</h3>
+                        <p>Minnen och ögonblick tillsammans.</p>
+                    </div>
+    
+                    <div class="pris-kort">
+                        <h3>Bröllop</h3>
+                        <p>Er berättelse, fångad i bilder.</p>
+                    </div>
+    
+                </div>
+    
+                <p>
+                    <a class="textlank" href="/pages/Services-Prices.html">
+                        Se tjänster och priser →
+                    </a>
+                </p>
+            </section>
+    
+            <section class="kontakt">
+                <h2>Ska vi skapa något tillsammans?</h2>
+                <p>
+                    Har du en idé eller vill du boka en fotografering?
+                    Jag ser fram emot att höra från dig.
+                </p>
+                <a class="knapp" href="/pages/Contact.html">Kontakta mig</a>
+            </section>
+    
+        </main>
+    
+        <footer>
+            <p>© 2026 Linnea Ek · Fotograf</p>
+            <p>Sverige</p>
+        </footer>
 
 </body>
 </html>
