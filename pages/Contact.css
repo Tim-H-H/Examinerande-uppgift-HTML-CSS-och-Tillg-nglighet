@@ -1,0 +1,61 @@
+
+/* Kontaktformulär */
+.kontakt-formular {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.kontakt-formular h2,
+.kontakt-info h2 {
+    text-align: center;
+}
+
+.kontakt-formular label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.kontakt-formular input,
+.kontakt-formular textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #D9D4CC;
+    background: #FFFFFF;
+    color: #111111;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.kontakt-formular input:focus,
+.kontakt-formular textarea:focus {
+    outline: 1px solid #7A5C3E;
+}
+
+.kontakt-formular textarea {
+    resize: vertical;
+}
+
+.kontakt-formular button {
+    margin-top: 25px;
+    padding: 14px 28px;
+    border: none;
+    background: #111111;
+    color: #FFFFFF;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.kontakt-formular button:hover {
+    background: #7A5C3E;
+}
+
+.kontakt-info {
+    background: #E5E5E5;
+}
+
+.kontakt-info p {
+    color: #444444;
+}
